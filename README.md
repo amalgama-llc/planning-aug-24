@@ -15,7 +15,7 @@
 
 1. [Корректность и полнота расписания](texts/scheduleValidity.md)
 2. [Устройство процесса построения расписания](texts/scheduling.md)
-3. [Класс Schedule и параметризация планировщика](texts/scheduleClass.md)
+3. [Основные классы и методы](texts/scheduleClass.md)
 4. [ПРАКТИКА: Вывод кол-ва произведённых изделий](texts/showComplete.md)
 5. [ПРАКТИКА: Скорейшее завершение операции](texts/newSelectorByCompletionTime.md)
 6. [ПРАКТИКА: Задержка перед следующей операцией](texts/delayBeforeNext.md)
