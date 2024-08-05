@@ -3,8 +3,7 @@
 Ситуация: есть *конечная дата*, к которой план производства должен быть выполнен.
 
 1. Новый параметр класса `Schedule` - направление построения расписания.
-2. `Schedule.createInitialPointers()`: инициализация начальных Pointer-ов теперь начинается с последней операции, а не с первой.
-3. `Alternative.apply()`: добавить ветку для планирования справа налево.
-4. `Schedule.generateAlternativesForWorkCenter()`: слоты создавать, начиная от правого края свободного gap-а.
-5. Совмещение с логикой batching-а (`Schedule.createInitialPointers()` и `Alternative.apply()`).
-5. Совмещение с логикой задержки между операциями (`Alternative.apply()`).
+2. `Schedule.createInitialPointers()`: инициализация начальных Pointer-ов теперь начинается с *последней* операции, а не с первой.
+3. `Alternative.apply()`: добавить ветку логики для планирования справа налево.
+4. `Schedule.generateAlternativesForWorkCenter()`: слоты создавать, начиная от *правого* края свободного gap-а.
+
