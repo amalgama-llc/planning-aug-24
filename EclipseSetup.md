@@ -19,7 +19,10 @@
 ## 4. Установка плагина визарда для создания десктоп-приложения для построения расписания
 
 1. В Eclipse выберите пункт меню `Help -> Install New Software...`.
-2. В верхнем поле введите: `https://nexus.am-sim.com/repository/wizard-scheduling-p2/latest/` и нажмите `Enter`.
+2. В верхнем поле введите:  
+```
+https://nexus.am-sim.com/repository/wizard-scheduling-p2/latest/
+```  
 3. Установите `Desktop Application Wizard for Scheduling`. 
 
 ## 5. Задание в Eclipse местоположения библиотек JavaFX
