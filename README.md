@@ -27,6 +27,7 @@
 ### Блок 3
 1. [Класс Pointer](texts/pointer.md)
 2. [ПРАКТИКА: Переналадка](texts/changeover.md)
+3. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
 
 ### Блок 4
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
