@@ -18,17 +18,17 @@
   
 ### Блок 2
 
-4. [ПРАКТИКА: Вывод кол-ва произведённых изделий](texts/showComplete.md)
-6. [ПРАКТИКА: Задержка перед следующей операцией](texts/delayBeforeNext.md)
-7. [ПРАКТИКА: Учёт стоимости операции](texts/newSelectorByLowestCost.md)
-
+1. [ПРАКТИКА: Вывод кол-ва произведённых изделий](texts/showComplete.md)
+2. [Класс Pointer](texts/pointer.md)
+3. [ПРАКТИКА: Задержка перед следующей операцией](texts/delayBeforeNext.md)
+4. [ПРАКТИКА: Учёт стоимости операции](texts/newSelectorByLowestCost.md)
 
 ## День 2
 
 ### Блок 3
-1. [Класс Pointer](texts/pointer.md)
-2. [ПРАКТИКА: Переналадка](texts/changeover.md)
-3. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
+
+1. [ПРАКТИКА: Переналадка](texts/changeover.md)
+2. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
 
 ### Блок 4
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
