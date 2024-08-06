@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Tests
+Bundle-SymbolicName:  com.company.test1.tests
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.company.test1.tests,com.company.test1.tests.utils
+Import-Package: org.junit.jupiter.api;version="5.9.0",org.junit.jupiter.
+ params;version="5.9.0"
+Require-Bundle: com.company.test1.datamodel;bundle-version="1.0.0",com.c
+ ompany.test1.scheduling;bundle-version="1.0.0",com.company.test1.applic
+ ation;bundle-version="1.0.0",com.amalgamasimulation.emf.excel,com.amalg
+ amasimulation.excel;bundle-version="1.3.1",com.amalgamasimulation.geome
+ try;bundle-version="1.7.0",com.amalgamasimulation.utils;bundle-version=
+ "1.32.0",org.apache.poi;bundle-version="4.1.1",org.apache.poi.ooxml;bun
+ dle-version="4.1.1",org.apache.commons.collections4;bundle-version="4.4
+ .0",org.apache.xmlbeans;bundle-version="3.1.0",org.apache.commons.compr
+ ess;bundle-version="1.21.0",org.apache.poi.ooxml.schemas;bundle-version
+ ="4.1.1",com.amalgamasimulation.graph,org.eclipse.osgi;bundle-version="
+ 3.18.300",com.company.test1.scenariogenerator;bundle-version="1.0.0"
+Bundle-Vendor: COMPANY
+Automatic-Module-Name: com.company.test1.tests
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+

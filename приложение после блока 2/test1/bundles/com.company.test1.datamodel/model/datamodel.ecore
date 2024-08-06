@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="datamodel" nsURI="http://www.example.org/datamodel" nsPrefix="datamodel">
+  <eClassifiers xsi:type="ecore:EClass" name="Scenario">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="beginDate" eType="ecore:EDataType ../../com.amalgamasimulation.ecoreutils/model/ecoreutils.ecore#//LocalDateTime"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="endDate" eType="ecore:EDataType ../../com.amalgamasimulation.ecoreutils/model/ecoreutils.ecore#//LocalDateTime"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="selectorType" eType="#//SelectorType"
+        defaultValueLiteral="FIRST"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workCenters" upperBound="-1"
+        eType="#//WorkCenter" containment="true" eOpposite="#//WorkCenter/scenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operations" upperBound="-1"
+        eType="#//Operation" containment="true" eOpposite="#//Operation/scenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="products" upperBound="-1"
+        eType="#//Product" containment="true" eOpposite="#//Product/scenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="productionPlanRecords"
+        upperBound="-1" eType="#//ProductionPlanRecord" containment="true" eOpposite="#//ProductionPlanRecord/scenario"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="performanceRecords" upperBound="-1"
+        eType="#//PerformanceRecord" containment="true" eOpposite="#//PerformanceRecord/scenario"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="WorkCenter">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" eType="#//Scenario"
+        eOpposite="#//Scenario/workCenters"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Product">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operations" upperBound="-1"
+        eType="#//Operation"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" eType="#//Scenario"
+        eOpposite="#//Scenario/products"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Operation">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        iD="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" eType="#//Scenario"
+        eOpposite="#//Scenario/operations"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="minDelayBeforeNextMinutes"
+        eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="ProductionPlanRecord">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="product" eType="#//Product"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="quantity" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EInt"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="plannedDate" eType="ecore:EDataType ../../com.amalgamasimulation.ecoreutils/model/ecoreutils.ecore#//LocalDateTime"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" eType="#//Scenario"
+        eOpposite="#//Scenario/productionPlanRecords"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PerformanceRecord">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="workCenter" eType="#//WorkCenter"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="operation" eType="#//Operation"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="durationMinutes" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="cost" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDouble"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="scenario" eType="#//Scenario"
+        eOpposite="#//Scenario/performanceRecords"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="SelectorType">
+    <eLiterals name="FIRST"/>
+    <eLiterals name="FASTEST_TO_FINISH" value="1"/>
+    <eLiterals name="EARLIEST_TO_START" value="2"/>
+    <eLiterals name="CHEAPEST" value="3"/>
+  </eClassifiers>
+</ecore:EPackage>

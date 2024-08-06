@@ -1,0 +1,19 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Scenariogenerator
+Bundle-SymbolicName: com.company.test1.scenariogenerator
+Bundle-Version: 1.0.0.qualifier
+Export-Package: com.company.test1.scenariogenerator
+Import-Package: org.junit.jupiter.api;version="5.10.1"
+Require-Bundle: com.company.test1.datamodel;bundle-version="1.0.0",com.a
+ malgamasimulation.emf.excel;bundle-version="2.12.0",com.amalgamasimulat
+ ion.utils;bundle-version="1.38.3",com.amalgamasimulation.distributionna
+ me;bundle-version="1.2.0",org.apache.poi.ooxml;bundle-version="4.1.1",c
+ om.amalgamasimulation.excel;bundle-version="1.4.0",org.apache.poi;bundl
+ e-version="4.1.1",org.apache.xmlbeans;bundle-version="3.1.0",org.apache
+ .commons.collections4;bundle-version="4.4.0",org.apache.commons.compres
+ s;bundle-version="1.22.0",org.apache.poi.ooxml.schemas;bundle-version="
+ 4.1.1"
+Automatic-Module-Name: com.company.test1.scenariogenerator
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+
