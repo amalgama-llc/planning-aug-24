@@ -45,6 +45,7 @@
 
 ### Блок 3
 
+1. [Обсуждение домашнего задания](texts/homework.md)
 1. [ПРАКТИКА: Переналадка](texts/changeover.md)
 2. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
 3. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
