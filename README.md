@@ -48,7 +48,7 @@
 1. [ПРАКТИКА: Переналадка](texts/changeover.md)
 2. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
 3. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
-4. ПРАКТИКА: Периоды недоступности
+4. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
 
 ### Блок 4
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
