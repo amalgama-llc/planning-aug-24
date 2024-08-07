@@ -46,10 +46,11 @@
 ### Блок 3
 
 1. [Обсуждение домашнего задания](texts/homework.md)
-1. [ПРАКТИКА: Переналадка](texts/changeover.md)
-2. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
-3. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
-4. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
+2. [ПРАКТИКА: Выбор альтернативы одновременно по цене и времени окончания](texts/newSelectorByCostAndEndTime.md)
+3. [ПРАКТИКА: Переналадка](texts/changeover.md)
+4. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
+5. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
+6. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
 
 ### Блок 4
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
