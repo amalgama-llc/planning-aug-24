@@ -53,9 +53,11 @@
 1. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
 2. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
-2. [ПРАКТИКА: Планирование справа налево](texts/rightToLeft.md)
-3. [ПРАКТИКА: Групповые операции](texts/groupOperation.md)
-4. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
+
+## Осталось за рамками обучения
+1. [ПРАКТИКА: Планирование справа налево](texts/rightToLeft.md)
+2. [ПРАКТИКА: Групповые операции](texts/groupOperation.md)
+3. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
 
 
 
