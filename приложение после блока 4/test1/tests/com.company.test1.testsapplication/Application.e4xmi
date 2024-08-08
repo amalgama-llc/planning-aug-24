@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmi:id="_c3AF0MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.application">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_c3AF0cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.window.main" label="Test application" width="500" height="400">
+    <tags>shellMaximized</tags>
+    <children xsi:type="basic:PartSashContainer" xmi:id="_chtKEPpCEe2CoJbPq303eQ" elementId="com.company.test1.testsapplication.partsashcontainer.0" horizontal="true">
+      <children xsi:type="basic:PartSashContainer" xmi:id="_UGrMgCb6Ee6zIdi2foTD9A" elementId="com.company.test1.testsapplication.partsashcontainer.1" containerData="2500">
+        <children xsi:type="basic:PartStack" xmi:id="_dt4pUPpCEe2CoJbPq303eQ" elementId="com.company.test1.testsapplication.partstack.0" containerData="70">
+          <children xsi:type="basic:Part" xmi:id="_eZxe8PpCEe2CoJbPq303eQ" elementId="com.company.test1.testsapplication.part.tests" contributionURI="bundleclass://com.company.test1.testsapplication/com.company.test1.testsapplication.TreePart" label="Tests"/>
+        </children>
+        <children xsi:type="basic:PartStack" xmi:id="_XUqLcCb6Ee6zIdi2foTD9A" elementId="com.company.test1.testsapplication.partstack.2" containerData="30">
+          <children xsi:type="basic:Part" xmi:id="_Xs2B8Cb6Ee6zIdi2foTD9A" elementId="com.company.test1.testsapplication.part.summary" contributionURI="bundleclass://com.company.test1.application/com.company.test1.application.parts.scheduling.ScheduleSummaryPart" label="Summary"/>
+        </children>
+      </children>
+      <children xsi:type="basic:PartStack" xmi:id="_eJEJcPpCEe2CoJbPq303eQ" elementId="com.company.test1.testsapplication.partstack.1" containerData="7500">
+        <children xsi:type="basic:Part" xmi:id="_e-CCkPpCEe2CoJbPq303eQ" elementId="com.company.test1.testsapplication.part.schedule" contributionURI="bundleclass://com.company.test1.application/com.company.test1.application.parts.scheduling.SchedulePart" label="Schedule" iconURI="platform:/plugin/com.company.test1.testsapplication/icons/planning.png"/>
+      </children>
+    </children>
+    <mainMenu xmi:id="_bJ-noBVnEey0Bq8_SOFODw" elementId="com.company.test1.application.menu.0"/>
+  </children>
+  <addons xmi:id="_c3AF0sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_c3AF08jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_c3AF1MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_c3AF1cjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_c3AF1sjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.handler.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
+  <addons xmi:id="_c3AF18jYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_c3AF2MjYEeSyMNYR5xypkQ" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+  <addons xmi:id="_muwyAE9gEe-aibN2X7YrUQ" elementId="localization.testsapplication.addon.0" contributionURI="bundleclass://com.amalgamasimulation.localization/com.amalgamasimulation.localization.Util"/>
+</application:Application>

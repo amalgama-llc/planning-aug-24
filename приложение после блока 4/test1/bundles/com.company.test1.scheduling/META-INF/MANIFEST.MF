@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: com.company.test1.scheduling
+Bundle-SymbolicName: com.company.test1.scheduling
+Bundle-Name: Scheduling
+Bundle-Version: 1.0.0
+Bundle-Vendor: Amalgama
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Export-Package: com.company.test1.scheduling,com.company.test1.schedulin
+ g.alternatives,com.company.test1.scheduling.selector,com.company.test1.
+ scheduling.slots
+Import-Package: com.amalgamasimulation.emf.commands
+Require-Bundle: com.company.test1.datamodel,com.amalgamasimulation.calen
+ dardatamodel,com.amalgamasimulation.ecoreutils,com.amalgamasimulation.r
+ andomdatamodel,com.amalgamasimulation.core,com.amalgamasimulation.times
+ eriesdatamodel,com.amalgamasimulation.utils
+

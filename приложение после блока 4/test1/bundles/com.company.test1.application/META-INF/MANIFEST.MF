@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Automatic-Module-Name: com.company.test1.application
+Bundle-SymbolicName: com.company.test1.application;singleton:=true
+Bundle-Name: Application
+Bundle-Version: 1.0.0
+Export-Package: com.company.test1.application.parts.scheduling,com.compa
+ ny.test1.application.scenario,com.company.test1.application.utils
+Bundle-Vendor: Amalgama
+Bundle-RequiredExecutionEnvironment: JavaSE-21
+Import-Package: jakarta.annotation,jakarta.inject
+Require-Bundle: com.company.test1.datamodel,com.company.test1.scheduling
+ ,com.amalgamasimulation.animation,com.amalgamasimulation.animation.swt,
+ com.amalgamasimulation.platform.animation.swt,com.amalgamasimulation.ca
+ lendardatamodel,com.amalgamasimulation.charts,com.amalgamasimulation.ch
+ arts.swt,com.amalgamasimulation.desktop.binding,com.amalgamasimulation.
+ desktop.properties,com.amalgamasimulation.desktop.ui,com.amalgamasimula
+ tion.desktop.utils,com.amalgamasimulation.ecoreutils,com.amalgamasimula
+ tion.emf,com.amalgamasimulation.emf.excel,com.amalgamasimulation.geomet
+ ry,com.amalgamasimulation.localization,com.amalgamasimulation.randomdat
+ amodel,com.amalgamasimulation.timeseriesdatamodel,com.amalgamasimulatio
+ n.utils,com.amalgamasimulation.viewupdater, com.amalgamasimulation.core
+ ,com.amalgamasimulation.visualsets,com.amalgamasimulation.viewupdater,o
+ rg.eclipse.core.databinding.observable,org.eclipse.core.databinding.pro
+ perty,org.eclipse.core.runtime,org.eclipse.e4.core.commands,org.eclipse
+ .e4.core.contexts,org.eclipse.e4.core.di,org.eclipse.e4.core.services,o
+ rg.eclipse.e4.ui.di,org.eclipse.e4.ui.model.workbench,org.eclipse.e4.ui
+ .services,org.eclipse.e4.ui.workbench,org.eclipse.emf.databinding,org.e
+ clipse.emf.edit,org.eclipse.jface,org.eclipse.jface.databinding,org.ecl
+ ipse.osgi.services,org.eclipse.swt,org.eclipse.ui,com.google.guava,com.
+ google.inject,org.eclipse.nebula.widgets.geomap
+
