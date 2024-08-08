@@ -48,13 +48,14 @@
 1. [Обсуждение домашнего задания](texts/homework.md)
 2. [ПРАКТИКА: Выбор альтернативы одновременно по цене и времени окончания](texts/newSelectorByCostAndEndTime.md)
 3. [ПРАКТИКА: Переналадка](texts/changeover.md)
-4. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
-5. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
-6. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
 
 ### Блок 4
+1. [ПРАКТИКА: Начальное состояние расписания](texts/initialState.md)
+2. [ПРАКТИКА: Периоды недоступности](texts/unavailability.md)
 1. [Кодогенерация сценариев](texts/scenarioGeneration.md)
 2. [ПРАКТИКА: Планирование справа налево](texts/rightToLeft.md)
 3. [ПРАКТИКА: Групповые операции](texts/groupOperation.md)
+4. [ПРАКТИКА: Несколько однотипных ПЦ](texts/severalWorkCenters.md)
+
 
 
