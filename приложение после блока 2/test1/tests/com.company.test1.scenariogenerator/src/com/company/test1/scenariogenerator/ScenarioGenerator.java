@@ -56,18 +56,18 @@ public class ScenarioGenerator {
 		ScenarioFactory factory = new ScenarioFactory();
 		factory.createScenario("Several work centers", LocalDateTime.parse("2024-05-01T00:00"), LocalDateTime.parse("2024-05-31T00:00"));
 		
-		Product product = factory.addProduct("���������� �����");
+		Product product = factory.addProduct("Фарфоровая чашка");
 		
-		Operation modeling = factory.addOperation("�����");
-		Operation firstFiring = factory.addOperation("�������� �����");
-		Operation painting = factory.addOperation("�������");
-		Operation glazing = factory.addOperation("��������������");
-		Operation secondFiring = factory.addOperation("������� �����");
+		Operation modeling = factory.addOperation("Лепка");
+		Operation firstFiring = factory.addOperation("Утильный обжиг");
+		Operation painting = factory.addOperation("Роспись");
+		Operation glazing = factory.addOperation("Глазурирование");
+		Operation secondFiring = factory.addOperation("Политой обжиг");
 		
-		WorkCenter potterFast = factory.addWorkCenter("������-1");
-		WorkCenter potterSlow = factory.addWorkCenter("������-2");
-		WorkCenter potteryKiln = factory.addWorkCenter("����");
-		WorkCenter painter = factory.addWorkCenter("��������");
+		WorkCenter potterFast = factory.addWorkCenter("Гончар-1");
+		WorkCenter potterSlow = factory.addWorkCenter("Гончар-2");
+		WorkCenter potteryKiln = factory.addWorkCenter("Печь");
+		WorkCenter painter = factory.addWorkCenter("Художник");
 		
 		product.getOperations().addAll(List.of(modeling, firstFiring, painting, glazing, secondFiring));
 		
